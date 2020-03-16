@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:kakatiyauni/views/mainmenu.dart';
+
 
 class KakatiyaUniApp extends StatelessWidget {
   // This widget is the root of your application.
@@ -29,7 +31,7 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        drawer: Drawer(),
+        drawer: MainMenu(),
         body: CustomScrollView(
           
           slivers: <Widget>[
